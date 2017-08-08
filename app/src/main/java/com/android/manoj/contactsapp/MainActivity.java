@@ -77,13 +77,13 @@ public class MainActivity extends AppCompatActivity {
                 String p2 = currUser.getPhone2();
                 String e = currUser.getEmail();
 
-               /* Log.d(TAG, "onItemClick: "+n +", "+p1+", p2 "+p2+", email"+e);
+                Log.d(TAG, "onItemClick: "+n +", "+p1+", p2 "+p2+", email"+e);
                 Intent intent = new Intent(MainActivity.this, UserDetail.class);
                 intent.putExtra("name", n);
                 intent.putExtra("phone1", p1);
                 intent.putExtra("phone2", p2);
                 intent.putExtra("email", e);
-                startActivity(intent);*/
+                startActivity(intent);
 
             }
         });
